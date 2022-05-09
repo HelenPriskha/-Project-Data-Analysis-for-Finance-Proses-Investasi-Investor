@@ -1,0 +1,2 @@
+df_event <- read.csv('https://storage.googleapis.com/dqlab-dataset/event.csv', stringsAsFactors = F)
+dplyr::glimpse(df_event)
